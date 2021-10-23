@@ -9,7 +9,7 @@ function BuyCake() {
 
 // (previousState, action) => newState
 
-const previousState = {
+const initialState = {
     numOfCakes: 10
 }
 
