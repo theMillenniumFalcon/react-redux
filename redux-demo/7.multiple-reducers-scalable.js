@@ -54,6 +54,7 @@ const rootreducer = combineReducers({
     cake: Cakereducer,
     iceCream: IceCreamreducer
 })
+
 const store = createStore(rootreducer) // this is where we create our redux store
 console.log('Initial state', store.getState()) // printing the initial state
 const unsubscribe = store.subscribe(() => console.log('Updated state', store.getState()))

@@ -35,6 +35,7 @@ const reducer = (state = initialState, action) => {
             ...state,
             numOfIceCreams: state.numOfIceCreams - 1,
         }
+        
         default: return state
     }
 }
