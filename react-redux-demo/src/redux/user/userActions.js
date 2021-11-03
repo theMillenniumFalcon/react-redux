@@ -1,4 +1,3 @@
-import axios from 'axios'
 import {
   FETCH_USERS_REQUEST,
   FETCH_USERS_SUCCESS,
